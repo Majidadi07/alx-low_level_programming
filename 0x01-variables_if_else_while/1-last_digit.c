@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -32,7 +33,7 @@ int main(void)
 	}
 	else
 	{
-		Printf("Input not recognized");
+		printf("Input not recognized");
 	}
 	return (0);
 }
