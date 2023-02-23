@@ -1,5 +1,5 @@
-#include<stdio.h>
-
+#include <stdio.h>
+#include <unistd.h>
 /**
  * main - main program start
  *
@@ -7,7 +7,17 @@
  *
  */
 
+int _putchar(char c);
+
 int main(void)
 {
-	puts("_putchar\n");
+	char c;
+	_putchar(c);
+
+	return (0);
+}
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
