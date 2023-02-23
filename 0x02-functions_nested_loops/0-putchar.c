@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include "main.h"
+#include "_putchar.c"
 /**
  * main - main program start
  *
@@ -30,9 +31,4 @@ int main(void)
 	_putchar(j);
 
 	return (0);
-}
-
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
 }
