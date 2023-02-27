@@ -9,9 +9,7 @@
 
 void print_rev(char *s)
 {
-	char *n;
-
-	*n = s;
+	char *n = s;
 
 	while (*n)
 		n++;
