@@ -2,6 +2,8 @@
 #include <stdio.h>
 
 /**
+ * more_numbers - prints from 0 to 14 ten times
+ * Return: a void function
  */
 
 void more_numbers(void)
