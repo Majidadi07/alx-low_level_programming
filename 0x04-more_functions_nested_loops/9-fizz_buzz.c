@@ -11,29 +11,16 @@ int main(void)
 
 	for (a = 1; a <= 100; a++)
 	{
-		if (a % 3 == 0 || a % 5 == 0)
-		{
-			if (a % 3 == 0)
-			{
-				puts("Fizz");
-			}
-			else if (a % 5 == 0)
-			{
-				puts("Buzz");
-			}
-			else if ((a % 3 == 0) && (a % 5 == 0))
-			{
-				puts("FizzBuzz")
-			}
-		}
+		if ((a % 3 == 0) && (a % 5 == 0))
+			puts("FizzBuzz");
+		else if (a % 3 == 0)
+			puts("Fizz")
+		else if (a % 5 == 0)
+			puts("Buzz")
 		else
-		{
 			printf("%d", a);
-		}
 		if (a != 100)
-		{
-			putchar(' ');
-		}
+			puts(" ");
 	}
 	putchar('\n');
 	return (0);
