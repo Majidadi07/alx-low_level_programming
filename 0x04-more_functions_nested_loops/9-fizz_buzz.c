@@ -15,15 +15,15 @@ int main(void)
 		{
 			if (a % 3 == 0)
 			{
-				printf("Fizz");
+				puts("Fizz");
 			}
 			else if (a % 5 == 0)
 			{
-				printf("Buzz");
+				puts("Buzz");
 			}
 			else if ((a % 3 == 0) && (a % 5 == 0))
 			{
-				printf("FizzBuzz")
+				puts("FizzBuzz")
 			}
 		}
 		else
