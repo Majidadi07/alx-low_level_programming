@@ -2,6 +2,10 @@
 #include <stdio.h>
 
 /**
+ * print_diagonal - print \ in a diagonal line manner
+ * @n: number of line to print
+ * Return: a void function
+ *
  */
 
 void print_diagonal(int n)
