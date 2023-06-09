@@ -14,6 +14,15 @@ int _sqrt_recursion(int n)
 	return (sqroot(n, 1));
 }
 
+/**
+ * sqroot - determine the root of a number
+ *
+ * @i: user input
+ * @j: number that go from 1 to user input
+ *
+ * Return: success when run without error
+ */
+
 int sqroot(int i, int j)
 {
 	if (j * j > i)
