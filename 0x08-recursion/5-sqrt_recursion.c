@@ -17,7 +17,7 @@ int sqroot(int i, int j)
 	}
 	if (j * j == i)
 	{
-		return (1);
+		return (j);
 	}
 	return (sqroot(i, j + 1));
 }
